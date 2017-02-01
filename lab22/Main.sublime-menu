@@ -1,0 +1,10 @@
+[{
+    "id": "awesomeScheme",
+    "caption": "My Scheme",
+    "children": [
+        {
+            "caption": "Run",
+            "command": "bycoexec"
+        },
+    ]
+}]

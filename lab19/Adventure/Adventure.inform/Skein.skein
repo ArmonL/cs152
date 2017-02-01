@@ -1,0 +1,5345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x2c8e710" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x2c8e710"/>
+  <item nodeId="node-0x2c8e710">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Hello World. You wake up, but something doesn&apos;t feel right. You quickly get out of bed. Where is everyone? You should probably check the time.
+
+Adventure
+An Interactive Fiction by Hansen Wu
+Release 1 / Serial number 161129 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Home
+It&apos;s gray and dull in here. Bright sunlight pours in through the window.
+
+You can see a watch, a laptop and a charger here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c8e890"/>
+      <child nodeId="node-0x2c8ee90"/>
+      <child nodeId="node-0x369a5a0"/>
+      <child nodeId="node-0x36ffa70"/>
+      <child nodeId="node-0x373d640"/>
+      <child nodeId="node-0x373d7c0"/>
+      <child nodeId="node-0x373ddc0"/>
+      <child nodeId="node-0x37662a0"/>
+      <child nodeId="node-0x3766a20"/>
+      <child nodeId="node-0x3766ba0"/>
+      <child nodeId="node-0x37ccef0"/>
+      <child nodeId="node-0x35f8a80"/>
+      <child nodeId="node-0x3977480"/>
+      <child nodeId="node-0x3977d80"/>
+      <child nodeId="node-0x3977f00"/>
+      <child nodeId="node-0x39a04a0"/>
+      <child nodeId="node-0x39a0620"/>
+      <child nodeId="node-0x39df420"/>
+      <child nodeId="node-0x39df8a0"/>
+      <child nodeId="node-0x39dfea0"/>
+      <child nodeId="node-0x3a08a30"/>
+      <child nodeId="node-0x3a48180"/>
+      <child nodeId="node-0x3a48780"/>
+      <child nodeId="node-0x3a48c00"/>
+      <child nodeId="node-0x3a48f00"/>
+      <child nodeId="node-0x3a71f20"/>
+      <child nodeId="node-0x3ac2290"/>
+      <child nodeId="node-0x7f6b3c1001b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c8e890">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c8ea10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c8ea10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c8eb90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c8eb90">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c8ed10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c8ed10">
+    <command xml:space="preserve">c</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2c8ee90">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Examined
+something
+You feel unprepared. Did you forget something?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34ab120"/>
+      <child nodeId="node-0x34ab2a0"/>
+      <child nodeId="node-0x34abea0"/>
+      <child nodeId="node-0x3623600"/>
+      <child nodeId="node-0x2c17410"/>
+      <child nodeId="node-0x369a2a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34ab120">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x34ab2a0">
+    <command xml:space="preserve">l w</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34ab420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34ab420">
+    <command xml:space="preserve">l n</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34ab5a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34ab5a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+A college in Silicon Valley with historical roots, stuck in the middle of downtown San Jose.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34ab720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34ab720">
+    <command xml:space="preserve">climb</command>
+    <result xml:space="preserve">What do you want to climb?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34ab8a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34ab8a0">
+    <command xml:space="preserve">descend</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34aba20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34aba20">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34abba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34abba0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34abd20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34abd20">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Landing
+It&apos;s gray and dull in here, but brightly lit. Where is everyone?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x34abea0">
+    <command xml:space="preserve">t</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34d5100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34d5100">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34d5280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34d5280">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34d5400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34d5400">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Dining Room
+The humans are all in the next room.  You smell some tasty food from on top of the table. 
+
+The table is too high for you to see on top, but you can smell treats!
+
+It is a wide chair.  Uncle Carl usually sits there
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34d5580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34d5580">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34d5700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34d5700">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+kitchen
+It is bright and shiny in here.  Your owner loves to make tasty treats in here.  Several of the humans are here.
+
+Turkey!  It is like giant chicken!  Surely the humans will not mind if you take a small taste…
+
+Uncle Carl is a nice man.  Sometimes he has a treat.
+
+Momlady is a nice person.  She makes food.
+
+Aunt Judy never has treats.  What more needs to be said?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34d5880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34d5880">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+Momlady moves the turkey from the kitchen to the table in the dining room.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34d5a00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34d5a00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Dining Room
+The humans are all in the next room.  You smell some tasty food from on top of the table. Something tasty is on the table, you are sure of it.
+
+Turkey!  It is like giant chicken!  Surely the humans will not mind if you take a small taste…
+
+The table is too high for you to see on top, but you can smell treats!
+
+It is a wide chair.  Uncle Carl usually sits there
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34d5b80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34d5b80">
+    <command xml:space="preserve">go to kitchen</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34d5d00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34d5d00">
+    <command xml:space="preserve">Go to Kitchen</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x34d5e80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x34d5e80">
+    <command xml:space="preserve">l n</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35131a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35131a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Dining Room
+The humans are all in the next room.  You smell some tasty food from on top of the table. Something tasty is on the table, you are sure of it.
+
+Turkey!  It is like giant chicken!  Surely the humans will not mind if you take a small taste…
+
+The table is too high for you to see on top, but you can smell treats!
+
+It is a wide chair.  Uncle Carl usually sits there
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3513320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3513320">
+    <command xml:space="preserve">e chair</command>
+    <result xml:space="preserve">I only understood you as far as wanting to (go) e.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35134a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35134a0">
+    <command xml:space="preserve">l chair</command>
+    <result xml:space="preserve">You see nothing special about the chair.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3513620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3513620">
+    <command xml:space="preserve">l turkey</command>
+    <result xml:space="preserve">You see nothing special about the turkey.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35137a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35137a0">
+    <command xml:space="preserve">l fdsa</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3513920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3513920">
+    <command xml:space="preserve">l table</command>
+    <result xml:space="preserve">You see nothing special about the table.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3513aa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3513aa0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3513c20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3513c20">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Dining Room
+The humans are all in the next room.  You smell some tasty food from on top of the table. Something tasty is on the table, you are sure of it.
+
+Turkey!  It is like giant chicken!  Surely the humans will not mind if you take a small taste…
+
+The table is too high for you to see on top, but you can smell treats!
+
+It is a wide chair.  Uncle Carl usually sits there
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3513da0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3513da0">
+    <command xml:space="preserve">ex</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3513f20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3513f20">
+    <command xml:space="preserve">eat turkey</command>
+    <result xml:space="preserve">You take a small little bite.  It is good!  You eat more.  One of the little humans comes into the room.  &quot;Rex! Bad dog!  Mom, Rex is eating the turkey!&quot;
+You have been a BAD DOG.  You hang your head in shame and climb down the chair to the floor, still chewing Turkey.  One of the big humans comes in with a broom.  &quot;Bad dog! Outside.
+
+
+
+    *** It is cold out here!  And all of the humans are inside without you!  Life is unfair….  Hey, a squirrel!!! ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x353d130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x353d130">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">
+
+
+Your name is Rex, the family dog.  Today is a special day!  Many people are here today visiting your humans.  And there are many tasty treats and good smells!  Hmm…  How can you get something to eat?
+
+Turkey Quest
+An Interactive Fiction by Thomas H. Austin
+Release 1 / Serial number 161121 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+kitchen
+It is bright and shiny in here.  Your owner loves to make tasty treats in here.  Several of the humans are here.
+
+Turkey!  It is like giant chicken!  Surely the humans will not mind if you take a small taste…
+
+Uncle Carl is a nice man.  Sometimes he has a treat.
+
+Momlady is a nice person.  She makes food.
+
+Aunt Judy never has treats.  What more needs to be said?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x353d2b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x353d2b0">
+    <command xml:space="preserve">eat turkey</command>
+    <result xml:space="preserve">You move towards the turkey, but one of the humans says &quot;bad Rex!&quot; and slaps you on the nose.  You slink away, knowing that you were a BAD DOG.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x353d430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x353d430">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x353d5b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x353d5b0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">kitchen
+It is bright and shiny in here.  Your owner loves to make tasty treats in here.  Several of the humans are here.
+
+Turkey!  It is like giant chicken!  Surely the humans will not mind if you take a small taste…
+
+Uncle Carl is a nice man.  Sometimes he has a treat.
+
+Momlady is a nice person.  She makes food.
+
+Aunt Judy never has treats.  What more needs to be said?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x353d730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x353d730">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x353d8b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x353d8b0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x353da30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x353da30">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+Momlady moves the turkey from the kitchen to the table in the dining room.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x353dbb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x353dbb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Dining Room
+The humans are all in the next room.  You smell some tasty food from on top of the table. Something tasty is on the table, you are sure of it.
+
+Turkey!  It is like giant chicken!  Surely the humans will not mind if you take a small taste…
+
+The table is too high for you to see on top, but you can smell treats!
+
+It is a wide chair.  Uncle Carl usually sits there
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x353dd30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x353dd30">
+    <command xml:space="preserve">e carl</command>
+    <result xml:space="preserve">I only understood you as far as wanting to (go) e.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x353deb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x353deb0">
+    <command xml:space="preserve">ex garl</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x357c110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x357c110">
+    <command xml:space="preserve">ex carl</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x357c290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x357c290">
+    <command xml:space="preserve">examine carl</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x357c410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x357c410">
+    <command xml:space="preserve">examine uncle carl</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x357c590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x357c590">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+kitchen
+It is bright and shiny in here.  Your owner loves to make tasty treats in here.  Several of the humans are here.
+
+Uncle Carl is a nice man.  Sometimes he has a treat.
+
+Momlady is a nice person.  She makes food.
+
+Aunt Judy never has treats.  What more needs to be said?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x357c710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x357c710">
+    <command xml:space="preserve">ex Momlady</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x357c890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x357c890">
+    <command xml:space="preserve">examine Momlady</command>
+    <result xml:space="preserve">You see nothing special about Momlady.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x357ca10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x357ca10">
+    <command xml:space="preserve">examine Uncle carl</command>
+    <result xml:space="preserve">He looks over at you and smiles.  &quot;I did&apos;nt forget about you boy.  Here, have this.&quot;  He drops a chewtoy.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x357cb90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x357cb90">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">kitchen
+It is bright and shiny in here.  Your owner loves to make tasty treats in here.  Several of the humans are here.
+
+It looks like a little hamburger
+
+Uncle Carl is a nice man.  Sometimes he has a treat.
+
+Momlady is a nice person.  She makes food.
+
+Aunt Judy never has treats.  What more needs to be said?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x357cd10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x357cd10">
+    <command xml:space="preserve">examine chewtoy</command>
+    <result xml:space="preserve">You see nothing special about the chewtoy.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x357ce90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x357ce90">
+    <command xml:space="preserve">eat chewtoy</command>
+    <result xml:space="preserve">&gt;&gt;&gt;SQUEAK&lt;&lt;&lt;  Hmm, maybe that is not food.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35a5130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35a5130">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Dining Room
+The humans are all in the next room.  You smell some tasty food from on top of the table. Something tasty is on the table, you are sure of it.
+
+Turkey!  It is like giant chicken!  Surely the humans will not mind if you take a small taste…
+
+The table is too high for you to see on top, but you can smell treats!
+
+It is a wide chair.  Uncle Carl usually sits there
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35a52b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35a52b0">
+    <command xml:space="preserve">take chewtoy</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35a5430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35a5430">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+kitchen
+It is bright and shiny in here.  Your owner loves to make tasty treats in here.  Several of the humans are here.
+
+It looks like a little hamburger
+
+Uncle Carl is a nice man.  Sometimes he has a treat.
+
+Momlady is a nice person.  She makes food.
+
+Aunt Judy never has treats.  What more needs to be said?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35a55b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35a55b0">
+    <command xml:space="preserve">take chewtoy</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35a5730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35a5730">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a chewtoy
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35a58b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35a58b0">
+    <command xml:space="preserve">travel</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35a5a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35a5a30">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a chewtoy
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35a5bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35a5bb0">
+    <command xml:space="preserve">eat chewtoy</command>
+    <result xml:space="preserve">&gt;&gt;&gt;SQUEAK&lt;&lt;&lt;  Hmm, maybe that is not food.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35a5d30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35a5d30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Dining Room
+The humans are all in the next room.  You smell some tasty food from on top of the table. Something tasty is on the table, you are sure of it.
+
+Turkey!  It is like giant chicken!  Surely the humans will not mind if you take a small taste…
+
+The table is too high for you to see on top, but you can smell treats!
+
+It is a wide chair.  Uncle Carl usually sits there
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35a5eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35a5eb0">
+    <command xml:space="preserve">eat chewtoy</command>
+    <result xml:space="preserve">&gt;&gt;&gt;SQUEAK&lt;&lt;&lt;  Hmm, maybe that is not food.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35e3170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35e3170">
+    <command xml:space="preserve">ex chewtoy</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35e32f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35e32f0">
+    <command xml:space="preserve">examine chewtoy</command>
+    <result xml:space="preserve">You see nothing special about the chewtoy.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35e3470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35e3470">
+    <command xml:space="preserve">look chewtoy</command>
+    <result xml:space="preserve">You see nothing special about the chewtoy.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35e35f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35e35f0">
+    <command xml:space="preserve">eat table</command>
+    <result xml:space="preserve">That&apos;s plainly inedible.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35e3770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35e3770">
+    <command xml:space="preserve">take table</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35e38f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35e38f0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a table
+  a chewtoy
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35e3a70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35e3a70">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Dining Room
+The humans are all in the next room.  You smell some tasty food from on top of the table. Something tasty is on the table, you are sure of it.
+
+Turkey!  It is like giant chicken!  Surely the humans will not mind if you take a small taste…
+
+It is a wide chair.  Uncle Carl usually sits there
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35e3bf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35e3bf0">
+    <command xml:space="preserve">take turkey</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35e3d70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35e3d70">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a turkey
+  a table
+  a chewtoy
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35e3ef0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35e3ef0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+kitchen
+It is bright and shiny in here.  Your owner loves to make tasty treats in here.  Several of the humans are here.
+
+Uncle Carl is a nice man.  Sometimes he has a treat.
+
+Momlady is a nice person.  She makes food.
+
+Aunt Judy never has treats.  What more needs to be said?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3623180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3623180">
+    <command xml:space="preserve">eat turkey</command>
+    <result xml:space="preserve">You move towards the turkey, but one of the humans says &quot;bad Rex!&quot; and slaps you on the nose.  You slink away, knowing that you were a BAD DOG.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3623300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3623300">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Dining Room
+The humans are all in the next room.  You smell some tasty food from on top of the table. 
+
+It is a wide chair.  Uncle Carl usually sits there
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3623480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3623480">
+    <command xml:space="preserve">eat turkey</command>
+    <result xml:space="preserve">You take a small little bite.  It is good!  You eat more.  One of the little humans comes into the room.  &quot;Rex! Bad dog!  Mom, Rex is eating the turkey!&quot;
+You have been a BAD DOG.  You hang your head in shame and climb down the chair to the floor, still chewing Turkey.  One of the big humans comes in with a broom.  &quot;Bad dog! Outside.
+
+
+
+    *** It is cold out here!  And all of the humans are inside without you!  Life is unfair….  Hey, a squirrel!!! ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3623600">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3623780"/>
+      <child nodeId="node-0x3623900"/>
+      <child nodeId="node-0x3623c00"/>
+      <child nodeId="node-0x3623f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3623780">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">SJSU
+A college in Silicon Valley with historical roots, stuck in the middle of downtown San Jose.
+
+No time for that!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3623900">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3623a80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3623a80">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">SJSU
+A college in Silicon Valley with historical roots, stuck in the middle of downtown San Jose.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3623c00">
+    <command xml:space="preserve">Examine watch</command>
+    <result xml:space="preserve">You woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3623d80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3623d80">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go to school.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3623f00">
+    <command xml:space="preserve">climb staircase</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+The staircase leads to the first floor and the rest of SJSU.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c17110"/>
+      <child nodeId="node-0x2c17290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c17110">
+    <command xml:space="preserve">climb staircase</command>
+    <result xml:space="preserve">
+SJSU
+SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+what is the time
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2c17290">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Clubroom
+The staircase leads to the first floor and the rest of SJSU.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2c17410">
+    <command xml:space="preserve">go weset</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c17590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c17590">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school!A college in Silicon Valley with historical roots, stuck in the middle of downtown San Jose.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c17710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c17710">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Home
+It&apos;s gray and dull in here. Bright sunlight pours in through the window.
+
+You can see a watch, a laptop and a charger here.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c17890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c17890">
+    <command xml:space="preserve">go SJSU</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c17a10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c17a10">
+    <command xml:space="preserve">go to west</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c17b90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c17b90">
+    <command xml:space="preserve">visit sjsu</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c17d10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c17d10">
+    <command xml:space="preserve">visit </command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2c17e90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2c17e90">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x369a120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x369a120">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+A college in Silicon Valley with historical roots, stuck in the middle of downtown San Jose.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x369a2a0">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x369a420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x369a420">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Home
+It&apos;s gray and dull in here. Bright sunlight pours in through the window. You should check the time.
+
+You can see a watch, a laptop and a charger here.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x369a5a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x369a720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x369a720">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Landing
+It&apos;s gray and dull in here. Bright sunlight pours in through the window. Where is everyone?
+
+You can see a watch, a laptop and a laptop charger here.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x369a8a0"/>
+      <child nodeId="node-0x36ff5f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x369a8a0">
+    <command xml:space="preserve">k</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x369aa20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x369aa20">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">Sorry, that can&apos;t be corrected.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x369aba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x369aba0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x369ad20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x369ad20">
+    <command xml:space="preserve">r</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x369aea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x369aea0">
+    <command xml:space="preserve">t</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36d7160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36d7160">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Are you sure you want to quit? </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36d72e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36d72e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36d7460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36d7460">
+    <command xml:space="preserve">k</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36d75e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36d75e0">
+    <command xml:space="preserve">j</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36d7760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36d7760">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36d78e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36d78e0">
+    <command xml:space="preserve">h</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36d7a60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36d7a60">
+    <command xml:space="preserve">c</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36d7be0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36d7be0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36d7d60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36d7d60">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Landing
+It&apos;s gray and dull in here, but brightly lit. Where is everyone?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36d7ee0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36d7ee0">
+    <command xml:space="preserve">go</command>
+    <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36ff170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36ff170">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36ff2f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36ff2f0">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36ff470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36ff470">
+    <command xml:space="preserve">go to sjsu</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x36ff5f0">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You woke up far too late! Good thing there&apos;s still time to get to school.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36ff770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36ff770">
+    <command xml:space="preserve">take watch</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36ff8f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36ff8f0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a watch
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x36ffa70">
+    <command xml:space="preserve">go to sjsu</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36ffbf0"/>
+      <child nodeId="node-0x373d1c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36ffbf0">
+    <command xml:space="preserve">go to SJSU</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36ffd70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36ffd70">
+    <command xml:space="preserve">g sjsu</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x36ffef0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x36ffef0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x373d1c0">
+    <command xml:space="preserve">go to landing</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x373d340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x373d340">
+    <command xml:space="preserve">go to Landing</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x373d4c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x373d4c0">
+    <command xml:space="preserve">see</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x373d640">
+    <command xml:space="preserve">go to stateroom</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x373d7c0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can hardly repeat that.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x373d940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x373d940">
+    <command xml:space="preserve">goto </command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x373dac0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x373dac0">
+    <command xml:space="preserve">go to Landing</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x373dc40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x373dc40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x373ddc0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Shouldn&apos;t you get oriented first?
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x373df40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x373df40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Landing
+It&apos;s gray and dull in here, but brightly lit. Where is everyone?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3766120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3766120">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Landing
+It&apos;s gray and dull in here, but brightly lit. Where is everyone?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x37662a0">
+    <command xml:space="preserve">see west</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3766420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3766420">
+    <command xml:space="preserve">look west</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37665a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37665a0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You finally arrive at school, albeit quite later than you hoped for.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3766720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3766720">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Landing
+It&apos;s gray and dull in here, but brightly lit. Where is everyone?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37668a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37668a0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You finally arrive at school, albeit quite later than you hoped for.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3766a20">
+    <command xml:space="preserve">walk to SJSU</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3766ba0">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">Your laptop is lying around. Ten pounds of Linux! This is where the Cyber happens. 
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3766d20"/>
+      <child nodeId="node-0x37a35c0"/>
+      <child nodeId="node-0x37a3ec0"/>
+      <child nodeId="node-0x37cc2f0"/>
+      <child nodeId="node-0x37cc5f0"/>
+      <child nodeId="node-0x37ccbf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3766d20">
+    <command xml:space="preserve">examine the laptop</command>
+    <result xml:space="preserve">Which do you mean, the laptop or the laptop charger?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3766ea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3766ea0">
+    <command xml:space="preserve">examine the laptop.</command>
+    <result xml:space="preserve">Which do you mean, the laptop or the laptop charger?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37a3140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37a3140">
+    <command xml:space="preserve">&quot;examine the laptop&quot;</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37a32c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37a32c0">
+    <command xml:space="preserve">examine the laptop.</command>
+    <result xml:space="preserve">Which do you mean, the laptop or the laptop charger?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37a3440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37a3440">
+    <command xml:space="preserve">examine the laptop charger</command>
+    <result xml:space="preserve">Your laptop charger is lying around. Don&apos;t forget to take it with you!
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+
+Your backpack feels unusually light.
+
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x37a35c0">
+    <command xml:space="preserve">enter Landing</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37a3740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37a3740">
+    <command xml:space="preserve">enter laptop</command>
+    <result xml:space="preserve">That&apos;s not something you can enter.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37a38c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37a38c0">
+    <command xml:space="preserve">time</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37a3a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37a3a40">
+    <command xml:space="preserve">t</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37a3bc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37a3bc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You finally arrive at school, albeit quite later than you hoped for.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37a3d40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37a3d40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Landing
+It&apos;s gray and dull in here. Bright sunlight pours in through the window.
+
+You can see a watch, a laptop and a charger here.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x37a3ec0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37cc170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37cc170">
+    <command xml:space="preserve">Examine laptop</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x37cc2f0">
+    <command xml:space="preserve">examine charger</command>
+    <result xml:space="preserve">Your laptop charger is lying around. Don&apos;t forget to take it with you!
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37cc470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37cc470">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x37cc5f0">
+    <command xml:space="preserve">take laptop and charger</command>
+    <result xml:space="preserve">laptop: Taken.
+charger: Taken.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37cc770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37cc770">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37cc8f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37cc8f0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37cca70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37cca70">
+    <command xml:space="preserve">drop laptop</command>
+    <result xml:space="preserve">Dropped.
+
+You feel unprepared.
+
+Alright, let&apos;s get cracking! You open up your laptop and get started, going through the boot sequence and typing in passwords.
+You plug in your laptop to charge it up. But what&apos;s this? The clubroom&apos;s door slams shut, and metal shielding covers the windows. The room goes dark, sirens blare, and red lights flash. It&apos;s the Cyber Room!
+
+Cyber Room
+The room is dark, there&apos;s flashing lights, and fast tempo electronica. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the cyber happens here. A big red button appears beside you.
+
+You can see Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x37ccbf0">
+    <command xml:space="preserve">take laptop</command>
+    <result xml:space="preserve">Taken.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x37ccd70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x37ccd70">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">Ten pounds of Linux! This is where the Cyber happens. 
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x37ccef0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3814140"/>
+      <child nodeId="node-0x383d340"/>
+      <child nodeId="node-0x383d640"/>
+      <child nodeId="node-0x387a490"/>
+      <child nodeId="node-0x387a910"/>
+      <child nodeId="node-0x387aa90"/>
+      <child nodeId="node-0x387ad90"/>
+      <child nodeId="node-0x38a42f0"/>
+      <child nodeId="node-0x38a4770"/>
+      <child nodeId="node-0x38a4ef0"/>
+      <child nodeId="node-0x38e0420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3814140">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Home
+It&apos;s gray and dull in here. Bright sunlight pours in through the window.
+
+You can see a watch, a laptop and a charger here.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38142c0"/>
+      <child nodeId="node-0x38148c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38142c0">
+    <command xml:space="preserve">climb</command>
+    <result xml:space="preserve">What do you want to climb?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3814440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3814440">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38145c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38145c0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">SJSU
+A college in Silicon Valley with historical roots, stuck in the middle of downtown San Jose.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3814740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3814740">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">No time for that!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x38148c0">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You check your watch. Oh no, you woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3814a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3814a40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Why would you go to school?... Wait, what time is it? You should check your watch first.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3814bc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3814bc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Why would you go to school?... Wait, what time is it? You should check your watch first.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3814d40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3814d40">
+    <command xml:space="preserve">examined watch</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3814ec0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3814ec0">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You check your watch. Oh no, you woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x383d1c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x383d1c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Why would you go to school?... Wait, what time is it? You should check your watch first.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x383d340">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go home, there&apos;s so much to get done!
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x383d4c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x383d4c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x383d640">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You check your watch. Oh no, you woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x383d7c0"/>
+      <child nodeId="node-0x383dac0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x383d7c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Why would you go to school right now?... Wait, what time is it? You should check your watch first.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x383d940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x383d940">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go to school.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x383dac0">
+    <command xml:space="preserve">take watch, laptop, charger</command>
+    <result xml:space="preserve">watch: Taken.
+laptop: Taken.
+charger: Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x383dc40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x383dc40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Why would you go to school right now?... Wait, what time is it? You should check your watch first.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x383ddc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x383ddc0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x383df40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x383df40">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Home
+It&apos;s gray and dull in here. Bright sunlight pours in through the window.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x387a190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x387a190">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You check your watch. Oh no, you woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x387a310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x387a310">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Why would you go to school right now?... Wait, what time is it? You should check your watch first.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x387a490">
+    <command xml:space="preserve">take watch</command>
+    <result xml:space="preserve">Taken.
+
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x387a610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x387a610">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go to school.
+
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x387a790"/>
+    </children>
+  </item>
+  <item nodeId="node-0x387a790">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x387a910">
+    <command xml:space="preserve">climb MQH Staircase</command>
+    <result xml:space="preserve">Little is to be achieved by that.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x387aa90">
+    <command xml:space="preserve">climb staircase</command>
+    <result xml:space="preserve">Little is to be achieved by that.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x387ac10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x387ac10">
+    <command xml:space="preserve">enter staircase</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+The staircase leads up to the second floor.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x387ad90">
+    <command xml:space="preserve">examine w</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x387af10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x387af10">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You check your watch. Oh no, you woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38a4170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38a4170">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Why would you go to school right now?... Wait, what time is it? You should check your watch first.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x38a42f0">
+    <command xml:space="preserve">climb stairs</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38a4470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38a4470">
+    <command xml:space="preserve">climb staircase</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+The staircase leads to the first floor and the rest of SJSU.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38a45f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38a45f0">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren&apos;t in anything at the moment.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x38a4770">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38a48f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38a48f0">
+    <command xml:space="preserve">stairs</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38a4a70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38a4a70">
+    <command xml:space="preserve">climb stairs</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38a4bf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38a4bf0">
+    <command xml:space="preserve">climb staircase</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here.
+
+The staircase leads to the first floor and the rest of SJSU.
+
+You feel unprepared.
+
+You&apos;re in the clubroom
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38a4d70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38a4d70">
+    <command xml:space="preserve">climb stairs</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x38a4ef0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+You feel unprepared.
+
+
+
+    *** A sinking feeling washes over you. Where&apos;s your laptop?! Unfortunately you can&apos;t get anything done today. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38e0120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38e0120">
+    <command xml:space="preserve">item</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38e02a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38e02a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+You feel unprepared.
+
+You&apos;re in the clubroom
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x38e0420">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. You should take out your laptop and get working. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+
+
+    *** A sinking feeling washes over you. Where&apos;s your laptop?! Unfortunately you can&apos;t get anything done today. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38e05a0"/>
+      <child nodeId="node-0x38e0720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38e05a0">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">
+[ The game has finished ]
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x38e0720">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">
+
+
+Hello World. You wake up, but something doesn&apos;t feel right. You quickly get out of bed. Where is everyone? You should probably check the time.
+
+Adventure
+An Interactive Fiction by Ray Ting
+Release 1 / Serial number 161128 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Home
+It&apos;s gray and dull in here. Bright sunlight pours in through the window.
+
+You can see a watch, a laptop and a charger here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38e08a0"/>
+      <child nodeId="node-0x35f8600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38e08a0">
+    <command xml:space="preserve">take watch laptop charger</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take the watch.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38e0a20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38e0a20">
+    <command xml:space="preserve">take watch, laptop, charger</command>
+    <result xml:space="preserve">watch: Taken.
+laptop: Taken.
+charger: Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38e0ba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38e0ba0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38e0d20"/>
+      <child nodeId="node-0x35f8300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38e0d20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go home, there&apos;s so much to get done!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x38e0ea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x38e0ea0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35f8180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35f8180">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. Strange, where is everyone? Oh well, put down your laptop and get working!
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x35f8300">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. Strange, where is everyone? Oh well, put down your laptop and get working!
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35f8480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35f8480">
+    <command xml:space="preserve">drop laptop</command>
+    <result xml:space="preserve">Dropped.
+
+You feel unprepared. Did you forget something?
+
+Alright, let&apos;s get cracking! You open up your laptop and get started, going through the boot sequence and typing in passwords.
+
+
+
+    *** success ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x35f8600">
+    <command xml:space="preserve">take laptop and charger</command>
+    <result xml:space="preserve">laptop: Taken.
+charger: Taken.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35f8780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35f8780">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35f8900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35f8900">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x35f8a80">
+    <command xml:space="preserve">take watch, laptop</command>
+    <result xml:space="preserve">watch: Taken.
+laptop: Taken.
+
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35f8c00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35f8c00">
+    <command xml:space="preserve">take charger</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35f8d80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35f8d80">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x35f8f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x35f8f00">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">SJSU
+SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3977180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3977180">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a charger
+  a laptop
+  a watch
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3977300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3977300">
+    <command xml:space="preserve">examine charger</command>
+    <result xml:space="preserve">Your laptop charger is lying around. Don&apos;t forget to take it with you!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3977480">
+    <command xml:space="preserve">e laptop</command>
+    <result xml:space="preserve">I only understood you as far as wanting to (go) e.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3977600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3977600">
+    <command xml:space="preserve">ex laptop</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3977780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3977780">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">Your laptop is lying around. Ten pounds of Linux! This is where the Cyber happens.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3977900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3977900">
+    <command xml:space="preserve">take laptop</command>
+    <result xml:space="preserve">Taken.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3977a80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3977a80">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3977c00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3977c00">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">Ten pounds of Linux!
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3977d80">
+    <command xml:space="preserve">aware</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3977f00">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39a01a0"/>
+      <child nodeId="node-0x39a0320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39a01a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Home
+It&apos;s gray and dull in here. Bright sunlight pours in through the window. You should check the time.
+
+You can see a watch, a laptop and a charger here.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x39a0320">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Why would you go to school right now?... Wait, what time is it? You should check your watch first.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x39a04a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x39a0620">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go home, there&apos;s so much to get done!
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+You&apos;re in the clubroom
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39a07a0"/>
+      <child nodeId="node-0x39a0da0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39a07a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39a0920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39a0920">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39a0aa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39a0aa0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go home, there&apos;s so much to get done!
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39a0c20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39a0c20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here.
+
+The staircase leads to the first floor and the rest of SJSU.
+
+You feel unprepared.
+
+You&apos;re in the clubroom
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x39a0da0">
+    <command xml:space="preserve">take watch, laptop, charger</command>
+    <result xml:space="preserve">watch: Taken.
+laptop: Taken.
+charger: Taken.
+
+You&apos;re in the clubroom
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39a0f20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39a0f20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+You&apos;re in the clubroom
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39df120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39df120">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">SJSU
+SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+You&apos;re in the clubroom
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39df2a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39df2a0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here.
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x39df420">
+    <command xml:space="preserve">take watch</command>
+    <result xml:space="preserve">Taken.
+
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39df5a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39df5a0">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You check your watch. Oh no, you woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39df720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39df720">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x39df8a0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39dfa20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39dfa20">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39dfba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39dfba0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x39dfd20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x39dfd20">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here.
+
+The staircase leads to the first floor and the rest of SJSU.
+
+You feel unprepared.
+
+You&apos;re in the clubroom
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x39dfea0">
+    <command xml:space="preserve">take laptop</command>
+    <result xml:space="preserve">Taken.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a08130"/>
+      <child nodeId="node-0x3a08430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a08130">
+    <command xml:space="preserve">drop laptop</command>
+    <result xml:space="preserve">Dropped.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a082b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a082b0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Home
+It&apos;s gray and dull in here. Bright sunlight pours in through the window.
+
+You can see a laptop, a watch and a charger here.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3a08430">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a085b0"/>
+      <child nodeId="node-0x3a08730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a085b0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. Strange, where is everyone? Oh well, put down your laptop and get working!
+
+The staircase leads to the first floor and the rest of SJSU.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3a08730">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. Strange, where is everyone? Oh well, put down your laptop and get working!
+
+The staircase leads to the first floor and the rest of SJSU.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a088b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a088b0">
+    <command xml:space="preserve">drop laptop</command>
+    <result xml:space="preserve">Dropped.
+
+You feel unprepared.
+
+Alright, let&apos;s get cracking! You open up your laptop and get started, going through the boot sequence and typing in passwords.
+
+
+
+    *** ... Only to notice that the battery is low, and you forgot your charger at home. A sinking feeling washes over you. Unfortunately you can&apos;t get anything done today. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3a08a30">
+    <command xml:space="preserve">e watch</command>
+    <result xml:space="preserve">I only understood you as far as wanting to (go) e.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a08bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a08bb0">
+    <command xml:space="preserve">ex watch</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a08d30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a08d30">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You check your watch. Oh no, you woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a08eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a08eb0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Why would you go to school right now?... Wait, what time is it? You should check your watch first.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3a48180">
+    <command xml:space="preserve">take charger, laptop</command>
+    <result xml:space="preserve">charger: Taken.
+laptop: Taken.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a48300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a48300">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a48480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a48480">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a48600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a48600">
+    <command xml:space="preserve">drop laptop</command>
+    <result xml:space="preserve">Dropped.
+
+You feel unprepared.
+
+Alright, let&apos;s get cracking! You open up your laptop and get started, going through the boot sequence and typing in passwords.
+something
+Cyber Room
+The cyber happens here.
+
+You can see Cyber Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3a48780">
+    <command xml:space="preserve">pess</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a48900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a48900">
+    <command xml:space="preserve">press</command>
+    <result xml:space="preserve">What do you want to press?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a48a80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a48a80">
+    <command xml:space="preserve">press laptop</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3a48c00">
+    <command xml:space="preserve">press on laptop</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a48d80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a48d80">
+    <command xml:space="preserve">press laptop</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3a48f00">
+    <command xml:space="preserve">take laptop and charger</command>
+    <result xml:space="preserve">laptop: Taken.
+charger: Taken.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a711a0"/>
+      <child nodeId="node-0x3a717a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a711a0">
+    <command xml:space="preserve">where is charger</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a71320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a71320">
+    <command xml:space="preserve">locate</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a714a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a714a0">
+    <command xml:space="preserve">examine laptop and charger</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a71620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a71620">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">Your laptop is lying around. Ten pounds of Linux! This is where the Cyber happens. 
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3a717a0">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You check your watch. Oh no, you woke up far too late! Good thing there&apos;s still time to get to school. Speaking of which, school is to the west.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a71920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a71920">
+    <command xml:space="preserve">take watch</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a71aa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a71aa0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a71c20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a71c20">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3a71da0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3a71da0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Clubroom
+This is the CS club room. CS stuff happens here. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3a71f20">
+    <command xml:space="preserve">take laptop, charger, watch</command>
+    <result xml:space="preserve">laptop: Taken.
+charger: Taken.
+watch: Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3ac2110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3ac2110">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3ac2290">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">watch: Taken.
+laptop: Taken.
+charger: Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3ac2410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3ac2410">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3ac2590"/>
+      <child nodeId="node-0x3aec420"/>
+      <child nodeId="node-0x3b2a130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3ac2590">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. You should take out your laptop and get working. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3ac2710"/>
+      <child nodeId="node-0x3ac2a10"/>
+      <child nodeId="node-0x7f6b3c100c30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3ac2710">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Clubroom
+This is the CS club room. CS stuff happens here. You should take out your laptop and get working. 
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3ac2890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3ac2890">
+    <command xml:space="preserve">drop laptop</command>
+    <result xml:space="preserve">Dropped.
+
+You feel unprepared.
+
+Alright, let&apos;s get cracking! You open up your laptop and get started, going through the boot sequence and typing in passwords.
+You plug in your laptop to charge it up. But what&apos;s this? The clubroom&apos;s door slams shut, and metal shielding covers the windows. The room goes dark, sirens blare, and red lights flash. You&apos;re in the cyber Room!
+
+Cyber Room
+The room is dark, there&apos;s flashing lights, and electronic music is playing. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the cyber happens here. Your laptop screen flashes the text &quot;SHALL WE PLAY A GAME&quot; before disappearing, and a big red security button appears beside you.
+
+You can see Security Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3ac2a10">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Clubroom
+This is the CS club room. CS stuff happens here. You should take out your laptop and get working. 
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3ac2b90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3ac2b90">
+    <command xml:space="preserve">drop laptop</command>
+    <result xml:space="preserve">Dropped.
+
+Alright, let&apos;s get cracking! You open up your laptop and get started, going through the boot sequence and typing in passwords.
+You plug in your laptop to charge it up. But what&apos;s this? The clubroom&apos;s door slams shut, and metal shielding covers the windows. The room goes dark, sirens blare, and red lights flash. You&apos;re in the cyber Room! Your laptop screen flashes the text &quot;SHALL WE PLAY A GAME&quot; before disappearing, and a big red security button appears beside you.
+
+Cyber Room
+The room is dark, there&apos;s flashing lights, and electronic music is playing. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the Cyber™ happens here.
+
+You can see Security Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3ac2d10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3ac2d10">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Cyber Room
+The room is dark, there&apos;s flashing lights, and electronic music is playing. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the Cyber™ happens here.
+
+You can see a laptop and Security Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3ac2e90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3ac2e90">
+    <command xml:space="preserve">examine security button</command>
+    <result xml:space="preserve">Big, red, with block letters saying &quot;SECURITY&quot; on it. Push for security to happen. Or Cyber™. Something like that, pick the buzzword of your choice.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3aec120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3aec120">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">Ten pounds of Linux! This is where the Cyber™ happens.  A few terminal windows are tiled to the screen corners, with green text flows across them. Since when did you use green text? Something tells you that Cyber™ is happening.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3aec2a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3aec2a0">
+    <command xml:space="preserve">press button</command>
+    <result xml:space="preserve">
+
+    *** You push the button and ... nothing happens. &quot;They&apos;re in the kernel!&quot; a voice shouts, and you find yourself jolted awake in class. Huh, you weren&apos;t in a Cyber Room, you just fell asleep in class ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f6b3c100c30">
+    <command xml:space="preserve">drop laptop</command>
+    <result xml:space="preserve">Dropped.
+
+Alright, let&apos;s get cracking! You open up your laptop and get started, going through the boot sequence and typing in passwords.
+You plug in your laptop to charge it up. But what&apos;s this? The clubroom&apos;s door slams shut, and metal shielding covers the windows. The room goes dark, sirens blare, and red lights flash. You&apos;re in the cyber Room! Your laptop screen flashes the text &quot;SHALL WE PLAY A GAME&quot; before disappearing, and a big red security button appears beside you.
+
+Cyber Room
+The room is dark, there&apos;s flashing lights, and electronic music is playing. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the Cyber™ happens here.
+
+Robot Fox yaps mechanically.
+
+You can also see a laptop and Security Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f6b3c100db0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f6b3c100db0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Cyber Room
+The room is dark, there&apos;s flashing lights, and electronic music is playing. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the Cyber™ happens here.
+
+Robot Fox yaps mechanically.
+
+You can also see a laptop and Security Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f6b3c100f30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f6b3c100f30">
+    <command xml:space="preserve">l robot</command>
+    <result xml:space="preserve">Robot Fox, a 100% non-organic silver fox with blue fur accents. It looks cute, although it&apos;ll probably shred your Planet Express uniforms. It stares back at you quizzically, and tilts its head.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3aec420">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">You&apos;re far behind schedule, better get moving!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3aec5a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3aec5a0">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">Ten pounds of Linux! This is where the Cyber happens. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3aec720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3aec720">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">SJSU
+SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3aec8a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3aec8a0">
+    <command xml:space="preserve">take staircase</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3aeca20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3aeca20">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. You should take out your laptop and get working. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3aecba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3aecba0">
+    <command xml:space="preserve">drop laptop</command>
+    <result xml:space="preserve">Dropped.
+
+Alright, let&apos;s get cracking! You open up your laptop and get started, going through the boot sequence and typing in passwords.
+You plug in your laptop to charge it up. But what&apos;s this? The clubroom&apos;s door slams shut, and metal shielding covers the windows. The room goes dark, sirens blare, and red lights flash. You&apos;re in the cyber Room!
+
+Cyber Room
+The room is dark, there&apos;s flashing lights, and electronic music is playing. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the cyber happens here. Your laptop screen flashes the text &quot;SHALL WE PLAY A GAME&quot; before disappearing, and a big red security button appears beside you.
+
+You can see Security Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3aecd20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3aecd20">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Cyber Room
+The room is dark, there&apos;s flashing lights, and electronic music is playing. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the cyber happens here.
+
+You can see a laptop and Security Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3aecea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3aecea0">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">Ten pounds of Linux! This is where the Cyber happens.  A few terminal windows are tiled to the screen corners, and Green text flows across them. Since when did you use green text? Something tells you that Cyber is happening.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x3b2a130">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b2a2b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b2a2b0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. You should take out your laptop and get working. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b2a430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b2a430">
+    <command xml:space="preserve">drop laptop</command>
+    <result xml:space="preserve">Dropped.
+
+Alright, let&apos;s get cracking! You open up your laptop and get started, going through the boot sequence and typing in passwords.
+You plug in your laptop to charge it up. But what&apos;s this? The clubroom&apos;s door slams shut, and metal shielding covers the windows. The room goes dark, sirens blare, and red lights flash. You&apos;re in the cyber Room! Your laptop screen flashes the text &quot;SHALL WE PLAY A GAME&quot; before disappearing, and a big red security button appears beside you.
+
+Cyber Room
+The room is dark, there&apos;s flashing lights, and electronic music is playing. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the Cyber™ happens here.
+
+Robot Fox yaps mechanically.
+
+You can also see a laptop and Security Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b2a5b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b2a5b0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Cyber Room
+The room is dark, there&apos;s flashing lights, and electronic music is playing. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the Cyber™ happens here.
+
+Robot Fox yaps mechanically.
+
+You can also see a laptop and Security Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b2a730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b2a730">
+    <command xml:space="preserve">examine fox</command>
+    <result xml:space="preserve">Robot Fox, a 100% non-organic silver fox with blue fur accents. It looks cute, although it&apos;ll probably shred your Planet Express uniforms.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b2a8b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b2a8b0">
+    <command xml:space="preserve">examine robot</command>
+    <result xml:space="preserve">Robot Fox, a 100% non-organic silver fox with blue fur accents. It looks cute, although it&apos;ll probably shred your Planet Express uniforms.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b2aa30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b2aa30">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b2abb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b2abb0">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">Ten pounds of Linux! This is where the Cyber™ happens.  A few terminal windows are tiled to the screen corners, with green text flows across them. Since when did you use green text? Something tells you that Cyber™ is happening.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b2ad30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b2ad30">
+    <command xml:space="preserve">take fox\t</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b2aeb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b2aeb0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Cyber Room
+The room is dark, there&apos;s flashing lights, and electronic music is playing. Is this Def Con? A sign above the door says &quot;Cyber Room&quot;. Evidently, the Cyber™ happens here.
+
+Robot Fox yaps mechanically.
+
+You can also see a laptop and Security Button here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b53190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b53190">
+    <command xml:space="preserve">take robot fox</command>
+    <result xml:space="preserve">I don&apos;t suppose Robot Fox would care for that.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b53310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b53310">
+    <command xml:space="preserve">pet</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b53490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b53490">
+    <command xml:space="preserve">push robot fox</command>
+    <result xml:space="preserve">Robot Fox might not like that.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b53610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b53610">
+    <command xml:space="preserve">eat </command>
+    <result xml:space="preserve">What do you want to eat?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x3b53790"/>
+    </children>
+  </item>
+  <item nodeId="node-0x3b53790">
+    <command xml:space="preserve">eat robot fox</command>
+    <result xml:space="preserve">He&apos;s plainly inedible.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f6b3c1001b0">
+    <command xml:space="preserve">push laptop w</command>
+    <result xml:space="preserve">The laptop cannot be pushed from place to place.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f6b3c100330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f6b3c100330">
+    <command xml:space="preserve">push laptop west</command>
+    <result xml:space="preserve">The laptop cannot be pushed from place to place.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f6b3c1004b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f6b3c1004b0">
+    <command xml:space="preserve">break</command>
+    <result xml:space="preserve">What do you want to break?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f6b3c100630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f6b3c100630">
+    <command xml:space="preserve">hit</command>
+    <result xml:space="preserve">What do you want to hit?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f6b3c1007b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f6b3c1007b0">
+    <command xml:space="preserve">hit laptop</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+You feel a lack of grasp on the time. Where&apos;s your watch?
+Your backpack feels unusually light.
+Something doesn&apos;t feel right.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f6b3c100930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f6b3c100930">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+SJSU
+You arrive at school, dodging potholes, debris, and terrible drivers on the road. The sun&apos;s already up and people are out and about. You lock your bike in the bike cage and quickly head to MacQuarrie Hall. This is SJSU, a college in Silicon Valley with a long history, stuck in the middle of downtown San Jose. You should go to the CS Club and get some work done before class starts.
+
+The staircase leads up to the clubroom on the second floor.
+
+You feel unprepared.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f6b3c100ab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f6b3c100ab0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening the staircase)
+
+Clubroom
+This is the CS club room. CS stuff happens here. You should take out your laptop and get working. Strange, where is everyone?
+
+The staircase leads to the first floor and the rest of SJSU.
+
+
+
+    *** A sinking feeling washes over you. Where&apos;s your laptop?! Unfortunately you can&apos;t get anything done today. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
